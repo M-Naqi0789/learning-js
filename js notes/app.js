@@ -1,9 +1,9 @@
-// JS OBJECTS 
+// JS 
 
 // 1. arrays = stores list of elements with a single name using numbered indexes. 
 // for eg :
 // const cars = ["Saab", "Volvo", "BMW"];
-// properties : methods, length, loops, accessibility, search, sort, iterations, sets
+// properties : methods, length, loops, accessibility, search, sort, iterations, sets, destructuring, spread operators
 
 // 2. boolean = values as true ir false, used in logical operations.
 // for eg :
@@ -35,7 +35,7 @@
 // let hello = () => {
 //   return "Hello World!";
 // }
-// properties : methods, parameters, expressions, arrow function  
+// properties : methods, default and rest parameters, expressions, arrow function, high order function  , callback
 
 // 7. global = global object is actually the browser windows, it have windows methods 
 // for eg :
@@ -50,9 +50,9 @@
 // for (const x of myIterator) {
 //   text += x;
 // }
-// properties : methods
+// properties : methods, loops, for of
 
-// 9. map  = tore collections of key-value pairs, similar to a dictionary
+// 9. map  = the collections of key-value pairs, similar to a dictionary
 // for eg :
 // const fruits = new Map();
 // fruits.set("apples", 500);
@@ -84,9 +84,37 @@
 //   }
 // });
 // myPromise.then(x => myDisplay(x), x => myDisplay(x));
-// properties : states, methods, 
+// properties : states, methods, Async/Await
 
 // 15. proxy  =  wrap other objects, ets you control operations on them, can trap and intercept code  
 // for eg :
 // const proxy = new Proxy(target, handler);
 // properties : targets (og function), handlers (traps methods using reflect)
+
+// 16. variable scoping = where variables are accessible (Global, Function, or Block scope)
+// for eg :
+// { let blockScoped = "I stay here"; }
+// properties: var (function-scoped), let/const (block-scoped).
+
+// 17. closures = A function that remembers its lexical environment even after the outer function has finished executing. used for data privacy
+// for eg :
+// function outer() {
+//   let count = 0;
+//   return () => count++; }
+// const counter = outer(); 
+// properties: -
+
+// 18. Window objects = provided by browser window 
+// for eg : 
+// let url = window.document.URL;
+// properties : window, history, nav, location,, screen
+
+// 19. DOM = html objects into js 
+// for eg : 
+// button.addEventListener("click", myFunction);
+// properties : doc, events, styles, attributes
+
+// 20. Web API = provided by browser to interaxct with system
+// for eg :
+// data.json
+// properties : fetch, DOM, storage, geolocation, canvas, history
