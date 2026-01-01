@@ -33,6 +33,22 @@
 // let random = "89"
 // let checker : number = (random as string).length
 
+// normal vs interface 
+// normally predefining types seprately in a variable if they are gonna repeat again and again
+// for eg :
+// type Order = {
+//     quality: string;
+//     quantity: number;
+//     confirmed: boolean;
+// };
+// interfaces - typically used with class 
+// for eg :
+// interface Order {
+//     quality: string;
+//     quantity: number;
+//     confirmed: boolean;
+// };
 
-// 1:40:00 
-
+// array enums - defining type of values in an array
+// for eg :
+// const menu:string[] =  ["intalian", 'fastfood']
