@@ -9,6 +9,7 @@
 // type annotation (manual assigning of type) string, boolean, number 
 // for eg :
 // let name : string = "naqi"
+// properties like readonly allows not to change value later
 
 // union and any 
 // union - assigning multiple data types/ or self made multiple data types
@@ -49,6 +50,24 @@
 //     confirmed: boolean;
 // };
 
-// array enums - defining type of values in an array
+// arrays - defining type of values in an array
 // for eg :
 // const menu:string[] =  ["intalian", 'fastfood']
+
+// enums - limiting choice 
+// for eg :
+// enum size {
+//     small, medium, large
+// }
+// const order = size.large
+
+// generic - defining types according to task
+// interface call<value> {
+//     say:value 
+// }
+//  const name: call<string> = {
+//     say:"naqi"
+//  }
+//   const digit: call<number> = {
+//     say:1
+//  }
