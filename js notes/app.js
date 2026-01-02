@@ -1,5 +1,16 @@
 // JS 
 
+// universal code pattern 
+// The Trigger (Event): What starts the engine? (A button click, a URL being visited, a timer going off).
+// Entry Point: Define the task (Function).
+// Safety: Prepare for failure (Try/Catch).
+// Input: Get the data (Fetch/Request).
+// Guard: Check if the data is valid (If/Else).
+// Work: Process the items (Loop).
+// Decision: Apply specific rules to each item (If/Else).
+// Exit: Send the result back (Return).
+// The Cleanup (Finally): Close connections
+
 // 1. arrays = stores list of elements with a single name using numbered indexes. 
 // for eg :
 // const cars = ["Saab", "Volvo", "BMW"];
